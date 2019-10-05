@@ -7,6 +7,13 @@ public class Ques7 {
         Scanner sc = new Scanner(System.in);
         String s;
         s = sc.nextLine();
+        int weight = 0;
+        for (int i = 0; i < s.length(); i++) {
+            weight = weight + s.charAt(i);
+
+
+        }
+        System.out.println(weight);
 
     }
 
